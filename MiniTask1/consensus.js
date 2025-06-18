@@ -23,7 +23,7 @@ validators.forEach(v => {
 // POW
 function selectPowValidator(validators) {
     console.log("\nSelecting with Proof-of-Work...");
-    console.log("Whoever has the strongest computer wins!");
+    console.log("strongest computer wins!");
     
     let winner = validators[0];
     for (let i = 1; i < validators.length; i++) {
@@ -39,7 +39,7 @@ function selectPowValidator(validators) {
 // POS
 function selectPosValidator(validators) {
     console.log("\nSelecting with Proof-of-Stake...");
-    console.log("Whoever has the most coins staked wins!");
+    console.log("most coins staked wins!");
     
     let winner = validators[0];
     for (let i = 1; i < validators.length; i++) {
@@ -55,7 +55,7 @@ function selectPosValidator(validators) {
 // Delegated 
 function selectDposValidator(validators) {
     console.log("\nSelecting with Delegated Proof-of-Stake...");
-    console.log("Whoever got the most votes wins!");
+    console.log("most votes wins!");
     
     let winner = validators[0];
     for (let i = 1; i < validators.length; i++) {
@@ -70,7 +70,7 @@ function selectDposValidator(validators) {
 
 // if tie?
 function handleTie(validators) {
-    console.log("\nOh no! We have a tie in voting!");
+    console.log("\nWe have a tie in voting!");
     const maxVotes = Math.max(...validators.map(v => v.votes));
     const tied = validators.filter(v => v.votes === maxVotes);
     

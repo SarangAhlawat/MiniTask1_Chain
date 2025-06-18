@@ -1,0 +1,9 @@
+Testing mining difficulty
+
+Trying difficulty 2
+
+Mining block 1... (Looking for 2 zeros)
+
+Trying difficulty 3
+
+Mining block 2... (Looking for 3 zeros)

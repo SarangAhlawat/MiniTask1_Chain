@@ -1,0 +1,43 @@
+block 1 adding
+block 2 adding
+
+Our blockchain is:
+[
+  {
+    "index": 0,
+    "timestamp": "01/01/2023",
+    "data": "First Block",
+    "previousHash": "0",
+    "hash": "2167dc8aa390033a19adb8ca2aabc716d7f7cfbb4574d80d5b57a5f20fdb4527",
+    "nonce": 0
+  },
+  {
+    "index": 1,
+    "timestamp": "02/01/2023",
+    "data": {
+      "amount": 10
+    },
+    "previousHash": "2167dc8aa390033a19adb8ca2aabc716d7f7cfbb4574d80d5b57a5f20fdb4527",
+    "hash": "261e65f7bb797635c811dbc34a5eb3327b126a87a751c8fc88b9c9336bc42ce8",
+    "nonce": 0
+  },
+  {
+    "index": 2,
+    "timestamp": "03/01/2023",
+    "data": {
+      "amount": 20
+    },
+    "previousHash": "261e65f7bb797635c811dbc34a5eb3327b126a87a751c8fc88b9c9336bc42ce8",
+    "hash": "3a35329fbc4c61815ebcc52c8b1da671c5685fd81c4ce6c300b0264079827af3",
+    "nonce": 0
+  }
+]
+
+blockchain valid? true
+
+Changing data in block 1...
+Is blockchain still valid? false
+
+Block 1 hash: 261e65f7bb797635c811dbc34a5eb3327b126a87a751c8fc88b9c9336bc42ce8
+Block 2 previous: 261e65f7bb797635c811dbc34a5eb3327b126a87a751c8fc88b9c9336bc42ce8
+not matching now...

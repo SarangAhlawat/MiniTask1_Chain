@@ -1,0 +1,30 @@
+Our validators:
+krish: Power=150, Stake=5000, Votes=45
+Raj: Power=200, Stake=3000, Votes=30
+Mohan: Power=100, Stake=7000, Votes=25
+Disha: Power=180, Stake=4000, Votes=50
+
+Selecting with Proof-of-Work...
+strongest computer wins!
+Winner is Raj with power 200!
+
+Selecting with Proof-of-Stake...
+most coins staked wins!
+Winner is Mohan with stake 7000!
+
+Selecting with Delegated Proof-of-Stake...
+most votes wins!
+Winner is Disha with 50 votes!
+
+Final Results:
+PoW selected Raj (best computer)
+PoS selected Mohan (most coins staked)
+DPoS selected Disha (most votes)
+
+Testing tie scenario...
+
+We have a tie in voting!
+Tied validators:
+Mohan
+Ramesh
+Randomly selected Ramesh as the winner!
